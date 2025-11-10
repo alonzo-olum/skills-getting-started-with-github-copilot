@@ -142,3 +142,37 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a237e;
+  font-weight: 700;
+}
+
+.participants ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-top: 4px;
+  padding-left: 0;
+}
+
+.participants li {
+  margin-bottom: 6px;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+/* Friendly message styling when there are no participants */
+.participants.empty {
+  color: #777;
+  font-style: italic;
+  padding: 6px 0 0 0;
+}
